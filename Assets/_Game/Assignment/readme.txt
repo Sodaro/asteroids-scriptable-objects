@@ -1,6 +1,9 @@
 Name: David Bång
 
-I chose Assignment 2: Asteroid Destroyer
+Assignment 2: Asteroid Destroyer
+
+Asteroid.cs modifications: added an initialize method which returns 
+Asteroid so we can utilize method chaining and initialize with 2 different SetSize methods.
 
 AsteroidSet is a runtime set with a dictionary of the asteroid instance ID:s and the corresponding Asteroid component. It is used by both the Asteroid Spawner and Destroyer scripts.
 
