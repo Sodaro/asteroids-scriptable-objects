@@ -16,12 +16,12 @@ namespace DefaultNamespace.ScriptableEvents
         
         private void OnEnable()
         {
-            _eventNoPayload.Register(OnEventRaised);
+            _eventNoPayload?.Register(OnEventRaised);
         }
 
         private void OnDisable()
         {
-            _eventNoPayload.Unregister(OnEventRaised);
+            _eventNoPayload?.Unregister(OnEventRaised);
         }
     }
 
